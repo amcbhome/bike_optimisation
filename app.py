@@ -37,13 +37,13 @@ def main():
     st.write("This app determines the optimal number of mountain and road bikes to produce to maximize profit, given a set of constraints.")
 
     st.subheader("Problem Definition")
-    [cite_start]st.write("A company produces mountain bikes and road bikes[cite: 1].")
+    st.write("A company produces mountain bikes and road bikes.")
     st.write("Profit from mountain bikes: £100")
     st.write("Profit from road bikes: £200")
-    [cite_start]st.write("Assembly time for a mountain bike: 3 hours [cite: 1]")
-    [cite_start]st.write("Assembly time for a road bike: 4 hours [cite: 1]")
-    [cite_start]st.write("Total assembly time available: 60 hours [cite: 2]")
-    [cite_start]st.write("The company wants at least twice as many mountain bikes as road bikes[cite: 3].")
+    st.write("Assembly time for a mountain bike: 3 hours")
+    st.write("Assembly time for a road bike: 4 hours")
+    st.write("Total assembly time available: 60 hours")
+    st.write("The company wants at least twice as many mountain bikes as road bikes.")
     
     # Define the linear programming problem
     # Objective function: Maximize P = 100x + 200y
